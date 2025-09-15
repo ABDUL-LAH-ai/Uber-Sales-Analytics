@@ -79,7 +79,7 @@ df['Customer Rating'] = df['Customer Rating'].fillna(df['Customer Rating'].media
 df['Payment Method'] = df['Payment Method'].fillna(df['Payment Method'].mode()[0])
   ```
 
-### Converting the Date Field into a Proper Data Type\
+### Converting the Date Field into a Proper Data Type
 
 ```python
 # converting the date column to a proper date data
@@ -87,5 +87,12 @@ df['Date'] = pd.to_datetime(df['Date'])
 # extract month from date
 df['Month'] = df['Date'].dt.month
 # extracting year from date
-df['Year'] = df['Date'].dt.year
-```
+df['Year'] = df['Date'].dt.year*
+```*
+
+## Business Insights
+
+1. What is the patternof the customer's bookings?
+![
+
+
