@@ -33,3 +33,16 @@ that the dataset has 150,000 rows. Certain data fields like `Avg VTAT` (10500), 
 `Cancelled Rides by Driver` (123000), `Driver Cancellation Reason` (123000), `Incomplete Rides` (141000), `Incomplete Rides Reason` (141000), `Booking Value` (48000), `Ride Distance` (48000),
 `Driver Ratings` (57000), `Customer Rating` (57000), `Payment Method` (48000)
 
+## Summary Statistics
+
+
+
+
+
+
+
+## Data Reprocessing
+The data is preprocessed by:
+* Handling the missing values
+
+
