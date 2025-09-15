@@ -93,6 +93,6 @@ df['Year'] = df['Date'].dt.year*
 ## Business Insights
 
 1. What is the patternof the customer's bookings?
-![
+![Dist_Booking_Status](Dist_Booking_Status.png)
 
 
