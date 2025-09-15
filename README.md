@@ -66,7 +66,7 @@ df['Driver Ratings'] = df['Driver Ratings'].fillna(df['Driver Ratings'].median()
 df['Customer Rating'] = df['Customer Rating'].fillna(df['Customer Rating'].median())
 ```
 
-* Replacing the missing payment eith the mode
+* Replacing the missing payment with the mode
   ```python
 # replacing the missing payment method with the mode
 df['Payment Method'] = df['Payment Method'].fillna(df['Payment Method'].mode()[0])
