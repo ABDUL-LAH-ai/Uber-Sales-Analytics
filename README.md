@@ -69,6 +69,7 @@ df['Customer Rating'] = df['Customer Rating'].fillna(df['Customer Rating'].media
 * Replacing the missing payment with the mode
   ```python
 # replacing the missing payment method with the mode
+```python
 df['Payment Method'] = df['Payment Method'].fillna(df['Payment Method'].mode()[0])
   ```
 
