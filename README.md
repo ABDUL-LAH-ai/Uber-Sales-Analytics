@@ -44,9 +44,10 @@ that the dataset has 150,000 rows. Certain data fields like `Avg VTAT` (10500), 
 ## Data Reprocessing
 The data had to be adequately prepared before moving ahead with our analysis. Therefore, I 
 * Removed data fields with too many missing values outrigthly
-  ```python
+  
  # Dropping off data field with so much missing values
- df.drop(['Cancelled Rides by Customer', 'Reason for cancelling by Customer', 'Cancelled Rides by Driver', 'Driver Cancellation Reason', 'Incomplete Rides', 'Incomplete Rides Reason'], axis=1, inplace=True)
+```python
+df.drop(['Cancelled Rides by Customer', 'Reason for cancelling by Customer', 'Cancelled Rides by Driver', 'Driver Cancellation Reason', 'Incomplete Rides', 'Incomplete Rides Reason'], axis=1, inplace=True)
   ```
 
 * Replaced missing values in other fields with median
