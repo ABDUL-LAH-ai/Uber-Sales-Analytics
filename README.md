@@ -36,7 +36,8 @@ that the dataset has 150,000 rows. Certain data fields like `Avg VTAT` (10500), 
 `Driver Ratings` (57000), `Customer Rating` (57000), `Payment Method` (48000)
 
 ## Check for Outliers
-![boxplot](
+![boxplot](boxplot.png)
+
 ## Summary Statistics
 ![summary_statistics](summary_statistics.PNG)
 
