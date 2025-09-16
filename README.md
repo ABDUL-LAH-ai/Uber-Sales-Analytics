@@ -93,6 +93,13 @@ df['Year'] = df['Date'].dt.year*
 ## Business Insights
 
 1. What is the pattern of the customer's bookings?
-![Dist_Booking_Status](Dist_Booking_Status.png)
+![Dist_Booking_Status](Dist_Booking_Status.png
+
+
+2. What does the customer rating say about the Uber operation
+
+```python
+
+```
 
 
