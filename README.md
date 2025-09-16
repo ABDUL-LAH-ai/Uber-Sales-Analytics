@@ -99,7 +99,26 @@ df['Year'] = df['Date'].dt.year*
 2. What does the customer rating say about the Uber operation
 
 ```python
+# Number of those that rated the business 4 and above(%)
 
+# Calculate the number of customers with ratings 4 and above
+customer_ratings_4_and_above = df[df['Customer Rating'] >= 4]['Customer Rating'].count()
+
+# Calculate the total number of non-null customer ratings
+total_customer_ratings = df['Customer Rating'].count()
+
+# Calculate the percentage
+percentage_4_and_above = (customer_ratings_4_and_above / total_customer_ratings) * 100
+
+print(f"Percentage of customers who rated 4 and above: {percentage_4_and_above:.2f}%")
+
+# Calculate the number of customers with ratings below 4
+customer_ratings_below_4 = df[df['Customer Rating'] < 4]['Customer Rating'].count()
+# Calculate the percentage
+percentage_below_4 = (customer_ratings_below_4 / total_customer_ratings) * 100
+
+print(f"Percentage of customers who rated below 4: {percentage_below_4:.2f}%")
 ```
+
 
 
