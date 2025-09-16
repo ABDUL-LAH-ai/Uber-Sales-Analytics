@@ -130,3 +130,6 @@ Percentage of customers who rated below 4: 8.60%
 ![customer_distribution](customer_distribution.PNG)
 
 Also, it can be inferred that the average customer rating is 4.44.
+
+## Distribution of Vehicle Type
+
