@@ -131,5 +131,8 @@ Percentage of customers who rated below 4: 8.60%
 
 Also, it can be inferred that the average customer rating is 4.44.
 
-## Distribution of Vehicle Type
+## 3. Distribution of Vehicle Type
 
+## 4. Booking Value by Vehicle Type
+
+## 4. Payment by 
