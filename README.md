@@ -121,4 +121,4 @@ print(f"Percentage of customers who rated below 4: {percentage_below_4:.2f}%")
 ```
 
 
-
+![customer_rating](customer_rating.png)
