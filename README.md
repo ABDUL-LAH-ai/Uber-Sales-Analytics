@@ -123,4 +123,6 @@ print(f"Percentage of customers who rated below 4: {percentage_below_4:.2f}%")
 
 ![customer_rating](customer_rating.png)
 
-![customer_distribution](customer_distribution.PNG)
+![customer_distribution](customer_distribution.PNG
+
+Also, it can be inferred that the average customer rating is 4.44.
