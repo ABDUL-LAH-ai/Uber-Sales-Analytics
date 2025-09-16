@@ -135,5 +135,6 @@ Also, it can be inferred that the average customer rating is 4.44.
 ![vehicle_type](vehicle_type.png)
 
 ## 4. Booking Value by Vehicle Type
+![booking_value_by_vehicle_type](booking_value_by_vehicle_type.png)
 
 ## 4. Payment by 
